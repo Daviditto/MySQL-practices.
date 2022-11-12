@@ -1,6 +1,8 @@
 select * from emp;
 select * from dept;
 
+## Given a employees and departments table, select the departments and rank their employees according to the percentage of their employees making over 2500 in salary.
+
 select 
 dept.dname, a.numbers_of_employees ,a.pct_over_2500
 from
